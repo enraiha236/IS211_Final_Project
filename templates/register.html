@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body class="p-6">
+    <h2 class="text-xl mb-4">Register</h2>
+    <form method="POST">
+        <input name="username" placeholder="username" class="border p-2 mb-3 w-full" required>
+        <input name="password" placeholder="password" class="border p-2 mb-3 w-full" required>
+        <button class="bg-blue-600 text-white p-2 w-full">Create Account</button>
+    </form>
+    <a href="{{ url_for('login') }}" class="block mt-3 text-center text-blue-600">Back to Login</a>
+</body>
+</html>
